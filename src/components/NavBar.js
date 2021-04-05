@@ -39,34 +39,44 @@ const NavBar = () => {
         </nav>
         <div className='inline-flex my-4'>
           <AnimatedSocialIcon
-            brandName='github'
+            brandName='facebook'
             url='https://www.google.com'
             animation='bounce'
             defaultColor='#fee2e2'
-            hoverColor='black'
-            width='2em'
+            hoverColor='#065f46'
+            width='1.8em'
             animationDuration={1}
-            className='mr-4'
+            className='mr-3'
           />
           <AnimatedSocialIcon
             brandName='twitter'
             url='https://www.google.com'
             animation='bounce'
             defaultColor='#fee2e2'
-            hoverColor='black'
-            width='2em'
+            hoverColor='#065f46'
+            width='1.8em'
             animationDuration={1}
-            className='mr-4'
+            className='mr-3'
           />
           <AnimatedSocialIcon
-            brandName='facebook'
+            brandName='github'
             url='https://www.google.com'
             animation='bounce'
             defaultColor='#fee2e2'
-            hoverColor='black'
-            width='2em'
+            hoverColor='#065f46'
+            width='1.8em'
             animationDuration={1}
-            className='mr-4'
+            className='mr-3'
+          />
+          <AnimatedSocialIcon
+            brandName='linkedin'
+            url='https://www.google.com'
+            animation='bounce'
+            defaultColor='#fee2e2'
+            hoverColor='#065f46'
+            width='1.8em'
+            animationDuration={1}
+            className='mr-3'
           />
         </div>
       </div>
