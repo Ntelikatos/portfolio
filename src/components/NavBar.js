@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { SocialIcon } from 'react-social-icons'
+import { AnimatedSocialIcon } from 'react-animated-social-icons'
 
 const NavBar = () => {
   return (
@@ -37,27 +37,36 @@ const NavBar = () => {
             About Me!
           </NavLink>
         </nav>
-        <div className='inline-flex py-3 px-3 my-6'>
-          <SocialIcon
-            url='https://twitter.com/test'
+        <div className='inline-flex my-4'>
+          <AnimatedSocialIcon
+            brandName='github'
+            url='https://www.google.com'
+            animation='bounce'
+            defaultColor='#D1D1D1'
+            hoverColor='black'
+            width='2em'
+            animationDuration={1}
             className='mr-4'
-            target='_blank'
-            fgColor='#fff'
-            style={{ height: 35, width: 35 }}
           />
-          <SocialIcon
-            url='https://youtube.com/test'
+          <AnimatedSocialIcon
+            brandName='twitter'
+            url='https://www.google.com'
+            animation='bounce'
+            defaultColor='#D1D1D1'
+            hoverColor='black'
+            width='2em'
+            animationDuration={1}
             className='mr-4'
-            target='_blank'
-            fgColor='#fff'
-            style={{ height: 35, width: 35 }}
           />
-          <SocialIcon
-            url='https://facebook.com/test'
+          <AnimatedSocialIcon
+            brandName='facebook'
+            url='https://www.google.com'
+            animation='bounce'
+            defaultColor='#D1D1D1'
+            hoverColor='black'
+            width='2em'
+            animationDuration={1}
             className='mr-4'
-            target='_blank'
-            fgColor='#fff'
-            style={{ height: 35, width: 35 }}
           />
         </div>
       </div>
