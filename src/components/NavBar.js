@@ -42,7 +42,7 @@ const NavBar = () => {
             brandName='github'
             url='https://www.google.com'
             animation='bounce'
-            defaultColor='#D1D1D1'
+            defaultColor='#fee2e2'
             hoverColor='black'
             width='2em'
             animationDuration={1}
@@ -52,7 +52,7 @@ const NavBar = () => {
             brandName='twitter'
             url='https://www.google.com'
             animation='bounce'
-            defaultColor='#D1D1D1'
+            defaultColor='#fee2e2'
             hoverColor='black'
             width='2em'
             animationDuration={1}
@@ -62,7 +62,7 @@ const NavBar = () => {
             brandName='facebook'
             url='https://www.google.com'
             animation='bounce'
-            defaultColor='#D1D1D1'
+            defaultColor='#fee2e2'
             hoverColor='black'
             width='2em'
             animationDuration={1}
